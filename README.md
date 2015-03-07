@@ -66,7 +66,7 @@ error: expected parentheses around type name in sizeof expression
 #### 2. sizeof返回值
 
 代码以及错误提示
-```
+```c
 warning: format specifies type 'int' but the argument has type 'unsigned long' [-Wformat]
     printf("%-10s %d\n", "char", sizeof(char));
                   ~~             ^~~~~~~~~~~~
