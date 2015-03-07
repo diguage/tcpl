@@ -13,5 +13,6 @@ int main(int argc, const char *argv[]) {
 
     }
     printf("%ld\n", nc);
+    // printf("EOF is %d\n", EOF); // 查看EOF的具体值
     return 0;
 }
